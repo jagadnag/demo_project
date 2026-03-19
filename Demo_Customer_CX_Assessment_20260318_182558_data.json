@@ -1,0 +1,3577 @@
+{
+  "meta": {
+    "customer": "Demo Customer",
+    "assessment_date": "2026-03-18",
+    "total_devices_analyzed": 275,
+    "total_devices_excluded": 11,
+    "unique_pids": 24,
+    "unique_sw_versions": 15,
+    "sites": 68
+  },
+  "fleet_composition": {
+    "by_platform_family": [
+      {
+        "family": "Catalyst 9400",
+        "count": 112,
+        "pct": 40.7
+      },
+      {
+        "family": "Catalyst 9300",
+        "count": 84,
+        "pct": 30.5
+      },
+      {
+        "family": "Catalyst 9500",
+        "count": 24,
+        "pct": 8.7
+      },
+      {
+        "family": "Nexus 9000",
+        "count": 21,
+        "pct": 7.6
+      },
+      {
+        "family": "Catalyst 8500",
+        "count": 12,
+        "pct": 4.4
+      },
+      {
+        "family": "Catalyst 3560-CX",
+        "count": 9,
+        "pct": 3.3
+      },
+      {
+        "family": "ISR 4000",
+        "count": 7,
+        "pct": 2.5
+      },
+      {
+        "family": "ASR 1000",
+        "count": 5,
+        "pct": 1.8
+      },
+      {
+        "family": "Catalyst 9200",
+        "count": 1,
+        "pct": 0.4
+      }
+    ],
+    "by_product_id": [
+      {
+        "pid": "C9410R",
+        "family": "Catalyst 9400",
+        "count": 112
+      },
+      {
+        "pid": "C9300-48UXM",
+        "family": "Catalyst 9300",
+        "count": 71
+      },
+      {
+        "pid": "C9500-40X",
+        "family": "Catalyst 9500",
+        "count": 16
+      },
+      {
+        "pid": "C8500-12X4QC",
+        "family": "Catalyst 8500",
+        "count": 12
+      },
+      {
+        "pid": "C9300X-24Y",
+        "family": "Catalyst 9300",
+        "count": 8
+      },
+      {
+        "pid": "WS-C3560CX-12PC-S",
+        "family": "Catalyst 3560-CX",
+        "count": 6
+      },
+      {
+        "pid": "ISR4431/K9",
+        "family": "ISR 4000",
+        "count": 6
+      },
+      {
+        "pid": "N9K-C93108TC-EX",
+        "family": "Nexus 9000",
+        "count": 6
+      },
+      {
+        "pid": "ASR1001-X",
+        "family": "ASR 1000",
+        "count": 5
+      },
+      {
+        "pid": "N9K-C9348GC-FXP",
+        "family": "Nexus 9000",
+        "count": 5
+      },
+      {
+        "pid": "C9500-16X",
+        "family": "Catalyst 9500",
+        "count": 4
+      },
+      {
+        "pid": "N9K-C93180YC-FX",
+        "family": "Nexus 9000",
+        "count": 4
+      },
+      {
+        "pid": "N9K-C9504",
+        "family": "Nexus 9000",
+        "count": 4
+      },
+      {
+        "pid": "C9300-48P",
+        "family": "Catalyst 9300",
+        "count": 3
+      },
+      {
+        "pid": "WS-C3560CX-8PC-S",
+        "family": "Catalyst 3560-CX",
+        "count": 2
+      },
+      {
+        "pid": "N9K-C93180LC-EX",
+        "family": "Nexus 9000",
+        "count": 2
+      },
+      {
+        "pid": "C9500-48Y4C",
+        "family": "Catalyst 9500",
+        "count": 2
+      },
+      {
+        "pid": "C9200L-24P-4X",
+        "family": "Catalyst 9200",
+        "count": 1
+      },
+      {
+        "pid": "C9300L-24P-4X",
+        "family": "Catalyst 9300",
+        "count": 1
+      },
+      {
+        "pid": "WS-C3560CX-12PD-S",
+        "family": "Catalyst 3560-CX",
+        "count": 1
+      },
+      {
+        "pid": "C9500-24Q",
+        "family": "Catalyst 9500",
+        "count": 1
+      },
+      {
+        "pid": "C9300-24UX",
+        "family": "Catalyst 9300",
+        "count": 1
+      },
+      {
+        "pid": "ISR4331/K9",
+        "family": "ISR 4000",
+        "count": 1
+      },
+      {
+        "pid": "C9500-24Y4C",
+        "family": "Catalyst 9500",
+        "count": 1
+      }
+    ],
+    "by_sw_type": [
+      {
+        "sw_type": "IOS-XE",
+        "count": 245
+      },
+      {
+        "sw_type": "NX-OS",
+        "count": 21
+      },
+      {
+        "sw_type": "IOS",
+        "count": 9
+      }
+    ],
+    "by_sw_version": [
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.5",
+        "count": 176
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.4a",
+        "count": 30
+      },
+      {
+        "sw_type": "NX-OS",
+        "version": "9.3(9)",
+        "count": 19
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.5a",
+        "count": 11
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.6.4",
+        "count": 10
+      },
+      {
+        "sw_type": "IOS",
+        "version": "15.2(7)E7",
+        "count": 8
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.6.6a",
+        "count": 5
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.6.5a",
+        "count": 4
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "16.12.4",
+        "count": 3
+      },
+      {
+        "sw_type": "NX-OS",
+        "version": "10.3(6)",
+        "count": 2
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.3",
+        "count": 2
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "16.12.6",
+        "count": 2
+      },
+      {
+        "sw_type": "IOS",
+        "version": "15.2(7)E9",
+        "count": 1
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "16.12.5b",
+        "count": 1
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.6",
+        "count": 1
+      }
+    ],
+    "top_sites": [
+      {
+        "site": "SITE26",
+        "count": 51
+      },
+      {
+        "site": "SITE20",
+        "count": 29
+      },
+      {
+        "site": "SITE24",
+        "count": 25
+      },
+      {
+        "site": "SITE29",
+        "count": 11
+      },
+      {
+        "site": "SITE31",
+        "count": 10
+      },
+      {
+        "site": "SITE28",
+        "count": 9
+      },
+      {
+        "site": "SITE66",
+        "count": 8
+      },
+      {
+        "site": "SITE19",
+        "count": 8
+      },
+      {
+        "site": "SITE25",
+        "count": 7
+      },
+      {
+        "site": "SITE30",
+        "count": 7
+      },
+      {
+        "site": "SITE46",
+        "count": 7
+      },
+      {
+        "site": "SITE27",
+        "count": 5
+      },
+      {
+        "site": "SITE06",
+        "count": 5
+      },
+      {
+        "site": "SITE11",
+        "count": 5
+      },
+      {
+        "site": "SITE57",
+        "count": 5
+      },
+      {
+        "site": "SITE50",
+        "count": 5
+      },
+      {
+        "site": "SITE01",
+        "count": 4
+      },
+      {
+        "site": "SITE34",
+        "count": 4
+      },
+      {
+        "site": "SITE56",
+        "count": 4
+      },
+      {
+        "site": "SITE59",
+        "count": 4
+      }
+    ]
+  },
+  "hw_eol": {
+    "domain_score": 95.3,
+    "pids_with_eol": 12,
+    "devices_affected": 54,
+    "risk_distribution": {
+      "MEDIUM": 11,
+      "PAST EOL": 2,
+      "LOW": 41
+    },
+    "eol_details": [
+      {
+        "pid": "N9K-C93180LC-EX",
+        "description": "Nexus 9300 Series, Upto 32p 40/50G OR 18p 100G",
+        "bulletin": "EOL13146",
+        "announced": "2019-08-31",
+        "end_of_sale": "2020-08-30",
+        "end_of_sw_maint": "2021-08-30",
+        "end_of_sec_vuln": "2025-08-31",
+        "last_date_of_support": "2025-08-31",
+        "migration_pid": "",
+        "migration_info": "",
+        "migration_strategy": "For N9K-C93180LC-EX product, customers are encouraged to migrate to the Cisco Nexus 9336C-FX2 Switch. Information about these products can be found at: https://www.cisco.com/c/en/us/products/switches/nexus-9000-series-switches/datasheet-listing.html.",
+        "risk": "PAST EOL",
+        "days_remaining": -199,
+        "device_count": 2
+      },
+      {
+        "pid": "N9K-C93108TC-EX",
+        "description": "Nexus 9300 with 48p 10G BASE-T and 6p 100G QSFP28",
+        "bulletin": "EOL14472",
+        "announced": "2021-08-09",
+        "end_of_sale": "2022-08-09",
+        "end_of_sw_maint": "2023-08-09",
+        "end_of_sec_vuln": "2025-08-08",
+        "last_date_of_support": "2027-08-31",
+        "migration_pid": "N9K-C93108TC-FX3P",
+        "migration_info": "Nexus 9300 48x 100M/1/2.5/5/10GT, 6x 100G Switch",
+        "migration_strategy": "",
+        "risk": "MEDIUM",
+        "days_remaining": 531,
+        "device_count": 6
+      },
+      {
+        "pid": "ASR1001-X",
+        "description": "Cisco ASR1001-X Chassis, 6 built-in GE, Dual P/S, 8GB DRAM",
+        "bulletin": "EOL14624",
+        "announced": "2022-01-31",
+        "end_of_sale": "2022-08-01",
+        "end_of_sw_maint": "2023-08-01",
+        "end_of_sec_vuln": "2025-07-31",
+        "last_date_of_support": "2027-07-31",
+        "migration_pid": "C8500L-8S4X",
+        "migration_info": "Cisco Catalyst 8500 Series 4x SFP+ and 8x SFP, 4x10GE, 8x1GE",
+        "migration_strategy": "",
+        "risk": "MEDIUM",
+        "days_remaining": 500,
+        "device_count": 5
+      },
+      {
+        "pid": "C9500-40X",
+        "description": "Catalyst 9500 40-port 10Gig switch, Baseboard",
+        "bulletin": "EOL15039",
+        "announced": "2023-04-30",
+        "end_of_sale": "2024-04-30",
+        "end_of_sw_maint": "2025-04-30",
+        "end_of_sec_vuln": "2029-04-30",
+        "last_date_of_support": "2029-04-30",
+        "migration_pid": "",
+        "migration_info": "",
+        "migration_strategy": "",
+        "risk": "LOW",
+        "days_remaining": 1139,
+        "device_count": 16
+      },
+      {
+        "pid": "ISR4431/K9",
+        "description": "Cisco ISR 4431 (4GE,3NIM,8G FLASH,4G DRAM,IPB)",
+        "bulletin": "EOL14896",
+        "announced": "2022-11-07",
+        "end_of_sale": "2023-11-07",
+        "end_of_sw_maint": "2025-08-31",
+        "end_of_sec_vuln": "2028-11-30",
+        "last_date_of_support": "2028-11-30",
+        "migration_pid": "C8300-1N1S-6T",
+        "migration_info": "Cisco Catalyst C8300-1N1S-6T Router",
+        "migration_strategy": "",
+        "risk": "LOW",
+        "days_remaining": 988,
+        "device_count": 6
+      },
+      {
+        "pid": "WS-C3560CX-12PC-S",
+        "description": "Cisco Catalyst 3560-CX 12 Port PoE IP Base",
+        "bulletin": "EOL15072",
+        "announced": "2023-05-01",
+        "end_of_sale": "2024-04-30",
+        "end_of_sw_maint": "2025-04-30",
+        "end_of_sec_vuln": "2029-04-30",
+        "last_date_of_support": "2029-04-30",
+        "migration_pid": "C9200CX-12P-2X2G-A",
+        "migration_info": "Catalyst 9000 Compact Switch 12 port PoE+, 240W, Adv",
+        "migration_strategy": "",
+        "risk": "LOW",
+        "days_remaining": 1139,
+        "device_count": 6
+      },
+      {
+        "pid": "N9K-C93180YC-FX",
+        "description": "Nexus 9300 with 48p 1/10/25G, 6p 40/100G, MACsec",
+        "bulletin": "EOL15110",
+        "announced": "2023-08-01",
+        "end_of_sale": "2024-07-31",
+        "end_of_sw_maint": "2027-07-31",
+        "end_of_sec_vuln": "2029-07-31",
+        "last_date_of_support": "2029-07-31",
+        "migration_pid": "N9K-C93180YC-FX3",
+        "migration_info": "Nexus 9300 48p 1/10/25G, 6p 40/100G, MACsec,SyncE",
+        "migration_strategy": "",
+        "risk": "LOW",
+        "days_remaining": 1231,
+        "device_count": 4
+      },
+      {
+        "pid": "C9500-16X",
+        "description": "Catalyst 9500 16-port 10Gig switch, Baseboard",
+        "bulletin": "EOL15621",
+        "announced": "2025-04-30",
+        "end_of_sale": "2026-04-30",
+        "end_of_sw_maint": "2027-04-30",
+        "end_of_sec_vuln": "2031-04-30",
+        "last_date_of_support": "2031-04-30",
+        "migration_pid": "",
+        "migration_info": "",
+        "migration_strategy": "",
+        "risk": "LOW",
+        "days_remaining": 1869,
+        "device_count": 4
+      },
+      {
+        "pid": "WS-C3560CX-8PC-S",
+        "description": "Cisco Catalyst 3560-CX 8 Port PoE IP Base",
+        "bulletin": "EOL15072",
+        "announced": "2023-05-01",
+        "end_of_sale": "2024-04-30",
+        "end_of_sw_maint": "2025-04-30",
+        "end_of_sec_vuln": "2029-04-30",
+        "last_date_of_support": "2029-04-30",
+        "migration_pid": "C9200CX-8P-2X2G-A",
+        "migration_info": "Catalyst 9000 Compact Switch 8 port PoE+, 240W, Adv",
+        "migration_strategy": "",
+        "risk": "LOW",
+        "days_remaining": 1139,
+        "device_count": 2
+      },
+      {
+        "pid": "ISR4331/K9",
+        "description": "Cisco ISR 4331 (3GE,2NIM,1SM,4G FLASH,4G DRAM,IPB)",
+        "bulletin": "EOL14896",
+        "announced": "2022-11-07",
+        "end_of_sale": "2023-11-07",
+        "end_of_sw_maint": "2025-08-31",
+        "end_of_sec_vuln": "2028-11-30",
+        "last_date_of_support": "2028-11-30",
+        "migration_pid": "C8200-1N-4T",
+        "migration_info": "Cisco Catalyst C8200-1N-4T Router",
+        "migration_strategy": "",
+        "risk": "LOW",
+        "days_remaining": 988,
+        "device_count": 1
+      },
+      {
+        "pid": "C9500-24Q",
+        "description": "Catalyst 9500 24-port 40G switch, Baseboard",
+        "bulletin": "EOL15039",
+        "announced": "2023-04-30",
+        "end_of_sale": "2024-04-30",
+        "end_of_sw_maint": "2025-04-30",
+        "end_of_sec_vuln": "2029-04-30",
+        "last_date_of_support": "2029-04-30",
+        "migration_pid": "",
+        "migration_info": "",
+        "migration_strategy": "",
+        "risk": "LOW",
+        "days_remaining": 1139,
+        "device_count": 1
+      },
+      {
+        "pid": "WS-C3560CX-12PD-S",
+        "description": "Cisco Catalyst 3560-CX 12 Port PoE, 10G Uplinks IP Base",
+        "bulletin": "EOL15072",
+        "announced": "2023-05-01",
+        "end_of_sale": "2024-04-30",
+        "end_of_sw_maint": "2025-04-30",
+        "end_of_sec_vuln": "2029-04-30",
+        "last_date_of_support": "2029-04-30",
+        "migration_pid": "C9200CX-12P-2X2G-A",
+        "migration_info": "Catalyst 9000 Compact Switch 12 port PoE+, 240W, Adv",
+        "migration_strategy": "",
+        "risk": "LOW",
+        "days_remaining": 1139,
+        "device_count": 1
+      }
+    ],
+    "no_eol_pids": [
+      {
+        "pid": "C9410R",
+        "family": "Catalyst 9400",
+        "count": 112
+      },
+      {
+        "pid": "C9300-48UXM",
+        "family": "Catalyst 9300",
+        "count": 71
+      },
+      {
+        "pid": "C8500-12X4QC",
+        "family": "Catalyst 8500",
+        "count": 12
+      },
+      {
+        "pid": "C9300X-24Y",
+        "family": "Catalyst 9300",
+        "count": 8
+      },
+      {
+        "pid": "N9K-C9348GC-FXP",
+        "family": "Nexus 9000",
+        "count": 5
+      },
+      {
+        "pid": "N9K-C9504",
+        "family": "Nexus 9000",
+        "count": 4
+      },
+      {
+        "pid": "C9300-48P",
+        "family": "Catalyst 9300",
+        "count": 3
+      },
+      {
+        "pid": "C9500-48Y4C",
+        "family": "Catalyst 9500",
+        "count": 2
+      },
+      {
+        "pid": "C9200L-24P-4X",
+        "family": "Catalyst 9200",
+        "count": 1
+      },
+      {
+        "pid": "C9300L-24P-4X",
+        "family": "Catalyst 9300",
+        "count": 1
+      },
+      {
+        "pid": "C9300-24UX",
+        "family": "Catalyst 9300",
+        "count": 1
+      },
+      {
+        "pid": "C9500-24Y4C",
+        "family": "Catalyst 9500",
+        "count": 1
+      }
+    ]
+  },
+  "sw_eol": {
+    "domain_score": 0.0,
+    "risk_distribution": {
+      "MEDIUM": 220,
+      "PAST EOL": 25,
+      "CRITICAL": 21,
+      "HIGH": 9
+    },
+    "eol_details": [
+      {
+        "sw_type": "NX-OS",
+        "version": "9.3(9)",
+        "device_count": 19,
+        "train_risk": "HIGH",
+        "train_status": "Legacy NX-OS Train (behind 10.x)",
+        "api_eol_bulletin": "EOL14694",
+        "api_eol_ldos": "2025-10-31",
+        "api_eol_sec_vuln_end": "2025-04-10",
+        "api_migration_strategy": "",
+        "recommended_version": "10.4(7)",
+        "effective_risk": "PAST EOL",
+        "days_remaining": -138
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "16.12.4",
+        "device_count": 3,
+        "train_risk": "CRITICAL",
+        "train_status": "End-of-Life Train (IOS-XE 16.x)",
+        "api_eol_bulletin": "EOL13547",
+        "api_eol_ldos": "2026-02-28",
+        "api_eol_sec_vuln_end": "2022-08-18",
+        "api_migration_strategy": "Customers are encouraged to migrate to Cisco IOS XE 17.3.1 or above.",
+        "recommended_version": "17.12.6",
+        "effective_risk": "PAST EOL",
+        "days_remaining": -18
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "16.12.6",
+        "device_count": 2,
+        "train_risk": "CRITICAL",
+        "train_status": "End-of-Life Train (IOS-XE 16.x)",
+        "api_eol_bulletin": "EOL13547",
+        "api_eol_ldos": "2026-02-28",
+        "api_eol_sec_vuln_end": "2022-08-18",
+        "api_migration_strategy": "Customers are encouraged to migrate to Cisco IOS XE 17.3.1 or above.",
+        "recommended_version": "17.12.6",
+        "effective_risk": "PAST EOL",
+        "days_remaining": -18
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "16.12.5b",
+        "device_count": 1,
+        "train_risk": "CRITICAL",
+        "train_status": "End-of-Life Train (IOS-XE 16.x)",
+        "api_eol_bulletin": "EOL13547",
+        "api_eol_ldos": "2026-02-28",
+        "api_eol_sec_vuln_end": "2022-08-18",
+        "api_migration_strategy": "Customers are encouraged to migrate to Cisco IOS XE 17.3.1 or above.",
+        "recommended_version": "17.12.6",
+        "effective_risk": "PAST EOL",
+        "days_remaining": -18
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.6.4",
+        "device_count": 10,
+        "train_risk": "HIGH",
+        "train_status": "Older Maintenance Train",
+        "api_eol_bulletin": "EOL14878",
+        "api_eol_ldos": "2026-03-31",
+        "api_eol_sec_vuln_end": "2024-09-30",
+        "api_migration_strategy": "",
+        "recommended_version": "17.12.6",
+        "effective_risk": "CRITICAL",
+        "days_remaining": 13
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.6.6a",
+        "device_count": 5,
+        "train_risk": "HIGH",
+        "train_status": "Older Maintenance Train",
+        "api_eol_bulletin": "EOL14878",
+        "api_eol_ldos": "2026-03-31",
+        "api_eol_sec_vuln_end": "2024-09-30",
+        "api_migration_strategy": "",
+        "recommended_version": "17.12.6",
+        "effective_risk": "CRITICAL",
+        "days_remaining": 13
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.6.5a",
+        "device_count": 4,
+        "train_risk": "HIGH",
+        "train_status": "Older Maintenance Train",
+        "api_eol_bulletin": "EOL14878",
+        "api_eol_ldos": "2026-03-31",
+        "api_eol_sec_vuln_end": "2024-09-30",
+        "api_migration_strategy": "",
+        "recommended_version": "17.12.6",
+        "effective_risk": "CRITICAL",
+        "days_remaining": 13
+      },
+      {
+        "sw_type": "NX-OS",
+        "version": "10.3(6)",
+        "device_count": 2,
+        "train_risk": "MEDIUM",
+        "train_status": "Active (behind recommended 10.4)",
+        "api_eol_bulletin": "EOL13756",
+        "api_eol_ldos": "2026-08-31",
+        "api_eol_sec_vuln_end": "2024-08-11",
+        "api_migration_strategy": "Cisco ONS 15454 MSTP and NCS 2000 networks can be migrated to latest software versions of Release 10.5 and 10.6 for TCC2P based deployments, Release 10.6 and above for TNC, TNC-E, TSC, TSC-E, TNCS, TNCS-O based deployments, Release 11.0 and above for TNCS2 and TNCS2O based deployments.",
+        "recommended_version": "10.4(7)",
+        "effective_risk": "CRITICAL",
+        "days_remaining": 166
+      },
+      {
+        "sw_type": "IOS",
+        "version": "15.2(7)E7",
+        "device_count": 8,
+        "train_risk": "HIGH",
+        "train_status": "Legacy IOS (limited maintenance)",
+        "api_eol_bulletin": "EOL13797",
+        "api_eol_ldos": "2027-03-31",
+        "api_eol_sec_vuln_end": "2024-03-30",
+        "api_migration_strategy": "",
+        "recommended_version": "15.2(7)E13",
+        "effective_risk": "HIGH",
+        "days_remaining": 378
+      },
+      {
+        "sw_type": "IOS",
+        "version": "15.2(7)E9",
+        "device_count": 1,
+        "train_risk": "HIGH",
+        "train_status": "Legacy IOS (limited maintenance)",
+        "api_eol_bulletin": "EOL13797",
+        "api_eol_ldos": "2027-03-31",
+        "api_eol_sec_vuln_end": "2024-03-30",
+        "api_migration_strategy": "",
+        "recommended_version": "15.2(7)E13",
+        "effective_risk": "HIGH",
+        "days_remaining": 378
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.5",
+        "device_count": 176,
+        "train_risk": "MEDIUM",
+        "train_status": "Active but behind recommended 17.12.x",
+        "api_eol_bulletin": "EOL15188",
+        "api_eol_ldos": "2027-03-31",
+        "api_eol_sec_vuln_end": "2026-09-30",
+        "api_migration_strategy": "Customers are encouraged to migrate to Cisco IOS XE 17.12.1 or above.",
+        "recommended_version": "17.12.6",
+        "effective_risk": "MEDIUM",
+        "days_remaining": 378
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.4a",
+        "device_count": 30,
+        "train_risk": "MEDIUM",
+        "train_status": "Active but behind recommended 17.12.x",
+        "api_eol_bulletin": "EOL15188",
+        "api_eol_ldos": "2027-03-31",
+        "api_eol_sec_vuln_end": "2026-09-30",
+        "api_migration_strategy": "Customers are encouraged to migrate to Cisco IOS XE 17.12.1 or above.",
+        "recommended_version": "17.12.6",
+        "effective_risk": "MEDIUM",
+        "days_remaining": 378
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.5a",
+        "device_count": 11,
+        "train_risk": "MEDIUM",
+        "train_status": "Active but behind recommended 17.12.x",
+        "api_eol_bulletin": "EOL15188",
+        "api_eol_ldos": "2027-03-31",
+        "api_eol_sec_vuln_end": "2026-09-30",
+        "api_migration_strategy": "Customers are encouraged to migrate to Cisco IOS XE 17.12.1 or above.",
+        "recommended_version": "17.12.6",
+        "effective_risk": "MEDIUM",
+        "days_remaining": 378
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.3",
+        "device_count": 2,
+        "train_risk": "MEDIUM",
+        "train_status": "Active but behind recommended 17.12.x",
+        "api_eol_bulletin": "EOL15188",
+        "api_eol_ldos": "2027-03-31",
+        "api_eol_sec_vuln_end": "2026-09-30",
+        "api_migration_strategy": "Customers are encouraged to migrate to Cisco IOS XE 17.12.1 or above.",
+        "recommended_version": "17.12.6",
+        "effective_risk": "MEDIUM",
+        "days_remaining": 378
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.6",
+        "device_count": 1,
+        "train_risk": "MEDIUM",
+        "train_status": "Active but behind recommended 17.12.x",
+        "api_eol_bulletin": "EOL15188",
+        "api_eol_ldos": "2027-03-31",
+        "api_eol_sec_vuln_end": "2026-09-30",
+        "api_migration_strategy": "Customers are encouraged to migrate to Cisco IOS XE 17.12.1 or above.",
+        "recommended_version": "17.12.6",
+        "effective_risk": "MEDIUM",
+        "days_remaining": 378
+      }
+    ]
+  },
+  "security": {
+    "domain_score": 3.3,
+    "total_psirt_alerts": 1538,
+    "avg_psirt_per_device": 5.6,
+    "risk_distribution": {
+      "MEDIUM": 150,
+      "HIGH": 87,
+      "LOW": 9,
+      "CRITICAL": 29
+    },
+    "top_20_devices": [
+      {
+        "device": "SITE62-12TH-93SW-01",
+        "pid": "C9300-48UXM",
+        "sw": "IOS-XE 17.9.5",
+        "psirt": 15,
+        "fn": 3,
+        "hw_eox": 1,
+        "cbp": 0,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE26-3W-SW02",
+        "pid": "C9410R",
+        "sw": "IOS-XE 17.9.5",
+        "psirt": 12,
+        "fn": 2,
+        "hw_eox": 0,
+        "cbp": 0,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE42P-CUBE-R2",
+        "pid": "ISR4431/K9",
+        "sw": "IOS-XE 16.12.4",
+        "psirt": 11,
+        "fn": 4,
+        "hw_eox": 3,
+        "cbp": 27,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE42p-zoom-cube-01",
+        "pid": "ISR4431/K9",
+        "sw": "IOS-XE 16.12.4",
+        "psirt": 11,
+        "fn": 4,
+        "hw_eox": 3,
+        "cbp": 28,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE42P-CUBE-01",
+        "pid": "ISR4431/K9",
+        "sw": "IOS-XE 16.12.4",
+        "psirt": 9,
+        "fn": 4,
+        "hw_eox": 3,
+        "cbp": 28,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE01-2ND-93SW-01",
+        "pid": "C9300-48UXM",
+        "sw": "IOS-XE 17.6.4",
+        "psirt": 9,
+        "fn": 3,
+        "hw_eox": 0,
+        "cbp": 22,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE37-93SW-STACK-01",
+        "pid": "C9300-48UXM",
+        "sw": "IOS-XE 17.6.4",
+        "psirt": 9,
+        "fn": 3,
+        "hw_eox": 2,
+        "cbp": 21,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE45-INFENG-SW01",
+        "pid": "C9500-16X",
+        "sw": "IOS-XE 16.12.6",
+        "psirt": 9,
+        "fn": 2,
+        "hw_eox": 5,
+        "cbp": 18,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE45-INFENG-SW02",
+        "pid": "C9500-16X",
+        "sw": "IOS-XE 16.12.6",
+        "psirt": 9,
+        "fn": 2,
+        "hw_eox": 5,
+        "cbp": 18,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE26-CORE-01",
+        "pid": "N9K-C9504",
+        "sw": "NX-OS 9.3(9)",
+        "psirt": 8,
+        "fn": 2,
+        "hw_eox": 0,
+        "cbp": 18,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE26-DC-AGG-01",
+        "pid": "N9K-C93180LC-EX",
+        "sw": "NX-OS 9.3(9)",
+        "psirt": 8,
+        "fn": 2,
+        "hw_eox": 1,
+        "cbp": 16,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE26-DC-D3-SW01",
+        "pid": "N9K-C93180YC-FX",
+        "sw": "NX-OS 9.3(9)",
+        "psirt": 8,
+        "fn": 0,
+        "hw_eox": 1,
+        "cbp": 18,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE26-DC-D4-SW01",
+        "pid": "N9K-C93108TC-EX",
+        "sw": "NX-OS 9.3(9)",
+        "psirt": 8,
+        "fn": 0,
+        "hw_eox": 1,
+        "cbp": 17,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE26-DC-D4-SW02",
+        "pid": "N9K-C93108TC-EX",
+        "sw": "NX-OS 9.3(9)",
+        "psirt": 8,
+        "fn": 0,
+        "hw_eox": 1,
+        "cbp": 17,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE26-DC-F4-SW01",
+        "pid": "N9K-C93108TC-EX",
+        "sw": "NX-OS 9.3(9)",
+        "psirt": 8,
+        "fn": 2,
+        "hw_eox": 1,
+        "cbp": 16,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE26-DC-F4-SW02",
+        "pid": "N9K-C93108TC-EX",
+        "sw": "NX-OS 9.3(9)",
+        "psirt": 8,
+        "fn": 0,
+        "hw_eox": 1,
+        "cbp": 16,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE26-DC-MGMT-SW03",
+        "pid": "N9K-C9348GC-FXP",
+        "sw": "NX-OS 9.3(9)",
+        "psirt": 8,
+        "fn": 0,
+        "hw_eox": 0,
+        "cbp": 13,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE34-7TH-SW-01",
+        "pid": "C9410R",
+        "sw": "IOS-XE 16.12.5b",
+        "psirt": 8,
+        "fn": 2,
+        "hw_eox": 2,
+        "cbp": 24,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE46-N9K-SW01",
+        "pid": "N9K-C9504",
+        "sw": "NX-OS 9.3(9)",
+        "psirt": 8,
+        "fn": 0,
+        "hw_eox": 0,
+        "cbp": 17,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      },
+      {
+        "device": "SITE46-N9K-SW02",
+        "pid": "N9K-C9504",
+        "sw": "NX-OS 9.3(9)",
+        "psirt": 8,
+        "fn": 0,
+        "hw_eox": 0,
+        "cbp": 17,
+        "sw_alerts": 1,
+        "risk": "CRITICAL"
+      }
+    ]
+  },
+  "psirt_advisories": {
+    "total_advisories_from_api": 660,
+    "total_critical_high": 429,
+    "by_version": [
+      {
+        "sw_type": "IOS-XE",
+        "version": "16.12.4",
+        "device_count": 3,
+        "total_advisories": 116,
+        "by_severity": {
+          "Critical": 4,
+          "High": 72,
+          "Medium": 40
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-iosxe-webui-privesc-j22SaA4z",
+            "title": "Multiple Vulnerabilities in Cisco IOS XE Software Web UI Feature",
+            "sir": "Critical",
+            "cvssBaseScore": "10.0",
+            "cves": [
+              "CVE-2023-20198",
+              "CVE-2023-20273"
+            ],
+            "firstFixed": [
+              "16.12.10a",
+              "16.12.11"
+            ],
+            "firstPublished": "2023-10-16T22:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ewlc-capwap-rce-LYgj8Kf",
+            "title": "Cisco IOS XE Software for Catalyst 9000 Family Wireless Controllers CAPWAP Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "10.0",
+            "cves": [
+              "CVE-2021-34770"
+            ],
+            "firstFixed": [
+              "16.12.5"
+            ],
+            "firstPublished": "2021-09-22T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-aaa-Yx47ZT8Q",
+            "title": "Cisco IOS XE Software NETCONF and RESTCONF Authentication Bypass Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.8",
+            "cves": [
+              "CVE-2021-1619"
+            ],
+            "firstFixed": [
+              "16.12.6"
+            ],
+            "firstPublished": "2021-09-22T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-telnetd-EFJrEzPx",
+            "title": "Telnet Vulnerability Affecting Cisco Products: June 2020",
+            "sir": "High",
+            "cvssBaseScore": "9.8",
+            "cves": [
+              "CVE-2020-10188"
+            ],
+            "firstFixed": [
+              "16.12.4a",
+              "16.12.5"
+            ],
+            "firstPublished": "2020-06-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-http-code-exec-WmfP3h3O",
+            "title": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.0",
+            "cves": [
+              "CVE-2025-20363"
+            ],
+            "firstFixed": [
+              "16.12.14"
+            ],
+            "firstPublished": "2025-09-25T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdinj-gVn3OKNC",
+            "title": "Cisco IOS XE Software Web-Based Management Interface Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2025-20186"
+            ],
+            "firstFixed": [
+              "16.12.5a",
+              "16.12.9"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdij-FzZAeXAy",
+            "title": "Cisco IOS XE Software Web UI Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2023-20231"
+            ],
+            "firstFixed": [
+              "16.12.10"
+            ],
+            "firstPublished": "2023-09-27T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nbar-dos-LAvwTmeT",
+            "title": "Cisco IOS XE Software Network-Based Application Recognition Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20315"
+            ],
+            "firstFixed": [
+              "16.12.14"
+            ],
+            "firstPublished": "2025-09-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-asa-ftd-ios-dos-DOESHWHy",
+            "title": "Cisco IOS, IOS XE, Secure Firewall Adaptive Security Appliance, and Secure Firewall Threat Defense Software IKEv2 Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20224",
+              "CVE-2025-20225",
+              "CVE-2025-20239",
+              "CVE-2025-20252",
+              "CVE-2025-20253",
+              "CVE-2025-20254"
+            ],
+            "firstFixed": [
+              "16.12.14"
+            ],
+            "firstPublished": "2025-08-14T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-multiprod-ikev2-dos-gPctUqv2",
+            "title": "Cisco Adaptive Security Appliance Software, Firepower Threat Defense Software, IOS Software, and IOS XE Software IKEv2 Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20182"
+            ],
+            "firstFixed": [
+              "16.12.13"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "16.12.6",
+        "device_count": 2,
+        "total_advisories": 73,
+        "by_severity": {
+          "Critical": 2,
+          "High": 48,
+          "Medium": 23
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-iosxe-webui-privesc-j22SaA4z",
+            "title": "Multiple Vulnerabilities in Cisco IOS XE Software Web UI Feature",
+            "sir": "Critical",
+            "cvssBaseScore": "10.0",
+            "cves": [
+              "CVE-2023-20198",
+              "CVE-2023-20273"
+            ],
+            "firstFixed": [
+              "16.12.10a",
+              "16.12.11"
+            ],
+            "firstPublished": "2023-10-16T22:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-http-code-exec-WmfP3h3O",
+            "title": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.0",
+            "cves": [
+              "CVE-2025-20363"
+            ],
+            "firstFixed": [
+              "16.12.14"
+            ],
+            "firstPublished": "2025-09-25T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdinj-gVn3OKNC",
+            "title": "Cisco IOS XE Software Web-Based Management Interface Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2025-20186"
+            ],
+            "firstFixed": [
+              "16.12.9"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdij-FzZAeXAy",
+            "title": "Cisco IOS XE Software Web UI Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2023-20231"
+            ],
+            "firstFixed": [
+              "16.12.10"
+            ],
+            "firstPublished": "2023-09-27T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nbar-dos-LAvwTmeT",
+            "title": "Cisco IOS XE Software Network-Based Application Recognition Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20315"
+            ],
+            "firstFixed": [
+              "16.12.14"
+            ],
+            "firstPublished": "2025-09-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-asa-ftd-ios-dos-DOESHWHy",
+            "title": "Cisco IOS, IOS XE, Secure Firewall Adaptive Security Appliance, and Secure Firewall Threat Defense Software IKEv2 Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20224",
+              "CVE-2025-20225",
+              "CVE-2025-20239",
+              "CVE-2025-20252",
+              "CVE-2025-20253",
+              "CVE-2025-20254"
+            ],
+            "firstFixed": [
+              "16.12.14"
+            ],
+            "firstPublished": "2025-08-14T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-multiprod-ikev2-dos-gPctUqv2",
+            "title": "Cisco Adaptive Security Appliance Software, Firepower Threat Defense Software, IOS Software, and IOS XE Software IKEv2 Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20182"
+            ],
+            "firstFixed": [
+              "16.12.13"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-iosxe-dhcpsn-dos-xBn8Mtks",
+            "title": "Cisco IOS XE Software DHCP Snooping Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20162"
+            ],
+            "firstFixed": [
+              "16.12.6a",
+              "16.12.9"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-twamp-kV4FHugn",
+            "title": "Cisco IOS, IOS XE, and IOS XR Software TWAMP Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20154"
+            ],
+            "firstFixed": [
+              "16.12.13"
+            ],
+            "firstPublished": "2025-05-07T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-rsvp-dos-OypvgVZf",
+            "title": "Cisco IOS and IOS XE Software Resource Reservation Protocol Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20433"
+            ],
+            "firstFixed": [
+              "16.12.12"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "16.12.5b",
+        "device_count": 1,
+        "total_advisories": 63,
+        "by_severity": {
+          "Critical": 3,
+          "High": 40,
+          "Medium": 20
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-iosxe-webui-privesc-j22SaA4z",
+            "title": "Multiple Vulnerabilities in Cisco IOS XE Software Web UI Feature",
+            "sir": "Critical",
+            "cvssBaseScore": "10.0",
+            "cves": [
+              "CVE-2023-20198",
+              "CVE-2023-20273"
+            ],
+            "firstFixed": [
+              "16.12.10a",
+              "16.12.11"
+            ],
+            "firstPublished": "2023-10-16T22:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-aaa-Yx47ZT8Q",
+            "title": "Cisco IOS XE Software NETCONF and RESTCONF Authentication Bypass Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.8",
+            "cves": [
+              "CVE-2021-1619"
+            ],
+            "firstFixed": [
+              "16.12.6"
+            ],
+            "firstPublished": "2021-09-22T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-http-code-exec-WmfP3h3O",
+            "title": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.0",
+            "cves": [
+              "CVE-2025-20363"
+            ],
+            "firstFixed": [
+              "16.12.14"
+            ],
+            "firstPublished": "2025-09-25T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdij-FzZAeXAy",
+            "title": "Cisco IOS XE Software Web UI Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2023-20231"
+            ],
+            "firstFixed": [
+              "16.12.10"
+            ],
+            "firstPublished": "2023-09-27T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nbar-dos-LAvwTmeT",
+            "title": "Cisco IOS XE Software Network-Based Application Recognition Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20315"
+            ],
+            "firstFixed": [
+              "16.12.14"
+            ],
+            "firstPublished": "2025-09-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-asa-ftd-ios-dos-DOESHWHy",
+            "title": "Cisco IOS, IOS XE, Secure Firewall Adaptive Security Appliance, and Secure Firewall Threat Defense Software IKEv2 Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20224",
+              "CVE-2025-20225",
+              "CVE-2025-20239",
+              "CVE-2025-20252",
+              "CVE-2025-20253",
+              "CVE-2025-20254"
+            ],
+            "firstFixed": [
+              "16.12.14"
+            ],
+            "firstPublished": "2025-08-14T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-multiprod-ikev2-dos-gPctUqv2",
+            "title": "Cisco Adaptive Security Appliance Software, Firepower Threat Defense Software, IOS Software, and IOS XE Software IKEv2 Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20182"
+            ],
+            "firstFixed": [
+              "16.12.13"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-twamp-kV4FHugn",
+            "title": "Cisco IOS, IOS XE, and IOS XR Software TWAMP Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20154"
+            ],
+            "firstFixed": [
+              "16.12.13"
+            ],
+            "firstPublished": "2025-05-07T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-rsvp-dos-OypvgVZf",
+            "title": "Cisco IOS and IOS XE Software Resource Reservation Protocol Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20433"
+            ],
+            "firstFixed": [
+              "16.12.12"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ios-xe-sda-edge-dos-MBcbG9k",
+            "title": "Cisco IOS XE Software SD-Access Fabric Edge Node Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20480"
+            ],
+            "firstFixed": [
+              "16.12.12"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.6.4",
+        "device_count": 10,
+        "total_advisories": 58,
+        "by_severity": {
+          "Critical": 2,
+          "High": 37,
+          "Medium": 19
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-iosxe-webui-privesc-j22SaA4z",
+            "title": "Multiple Vulnerabilities in Cisco IOS XE Software Web UI Feature",
+            "sir": "Critical",
+            "cvssBaseScore": "10.0",
+            "cves": [
+              "CVE-2023-20198",
+              "CVE-2023-20273"
+            ],
+            "firstFixed": [
+              "17.6.6a",
+              "17.6.5a",
+              "17.6.7"
+            ],
+            "firstPublished": "2023-10-16T22:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-http-code-exec-WmfP3h3O",
+            "title": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.0",
+            "cves": [
+              "CVE-2025-20363"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-09-25T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdinj-gVn3OKNC",
+            "title": "Cisco IOS XE Software Web-Based Management Interface Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2025-20186"
+            ],
+            "firstFixed": [
+              "17.6.8"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdij-FzZAeXAy",
+            "title": "Cisco IOS XE Software Web UI Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2023-20231"
+            ],
+            "firstFixed": [
+              "17.6.6"
+            ],
+            "firstPublished": "2023-09-27T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nbar-dos-LAvwTmeT",
+            "title": "Cisco IOS XE Software Network-Based Application Recognition Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20315"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-09-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-asa-ftd-ios-dos-DOESHWHy",
+            "title": "Cisco IOS, IOS XE, Secure Firewall Adaptive Security Appliance, and Secure Firewall Threat Defense Software IKEv2 Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20224",
+              "CVE-2025-20225",
+              "CVE-2025-20239",
+              "CVE-2025-20252",
+              "CVE-2025-20253",
+              "CVE-2025-20254"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-08-14T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-multiprod-ikev2-dos-gPctUqv2",
+            "title": "Cisco Adaptive Security Appliance Software, Firepower Threat Defense Software, IOS Software, and IOS XE Software IKEv2 Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20182"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-iosxe-dhcpsn-dos-xBn8Mtks",
+            "title": "Cisco IOS XE Software DHCP Snooping Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20162"
+            ],
+            "firstFixed": [
+              "17.9.1x",
+              "17.9.6a",
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-twamp-kV4FHugn",
+            "title": "Cisco IOS, IOS XE, and IOS XR Software TWAMP Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20154"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2025-05-07T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-sdwan-utd-dos-hDATqxs",
+            "title": "Cisco Catalyst SD-WAN Routers Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20455"
+            ],
+            "firstFixed": [
+              "17.6.7"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.3",
+        "device_count": 2,
+        "total_advisories": 53,
+        "by_severity": {
+          "Critical": 2,
+          "High": 32,
+          "Medium": 19
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-iosxe-webui-privesc-j22SaA4z",
+            "title": "Multiple Vulnerabilities in Cisco IOS XE Software Web UI Feature",
+            "sir": "Critical",
+            "cvssBaseScore": "10.0",
+            "cves": [
+              "CVE-2023-20198",
+              "CVE-2023-20273"
+            ],
+            "firstFixed": [
+              "17.9.5",
+              "17.9.4a"
+            ],
+            "firstPublished": "2023-10-16T22:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-http-code-exec-WmfP3h3O",
+            "title": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.0",
+            "cves": [
+              "CVE-2025-20363"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-09-25T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdinj-gVn3OKNC",
+            "title": "Cisco IOS XE Software Web-Based Management Interface Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2025-20186"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nbar-dos-LAvwTmeT",
+            "title": "Cisco IOS XE Software Network-Based Application Recognition Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20315"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-09-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-asa-ftd-ios-dos-DOESHWHy",
+            "title": "Cisco IOS, IOS XE, Secure Firewall Adaptive Security Appliance, and Secure Firewall Threat Defense Software IKEv2 Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20224",
+              "CVE-2025-20225",
+              "CVE-2025-20239",
+              "CVE-2025-20252",
+              "CVE-2025-20253",
+              "CVE-2025-20254"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-08-14T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-multiprod-ikev2-dos-gPctUqv2",
+            "title": "Cisco Adaptive Security Appliance Software, Firepower Threat Defense Software, IOS Software, and IOS XE Software IKEv2 Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20182"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-iosxe-dhcpsn-dos-xBn8Mtks",
+            "title": "Cisco IOS XE Software DHCP Snooping Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20162"
+            ],
+            "firstFixed": [
+              "17.9.6a",
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-twamp-kV4FHugn",
+            "title": "Cisco IOS, IOS XE, and IOS XR Software TWAMP Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20154"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2025-05-07T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-sdwan-utd-dos-hDATqxs",
+            "title": "Cisco Catalyst SD-WAN Routers Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20455"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-rsvp-dos-OypvgVZf",
+            "title": "Cisco IOS and IOS XE Software Resource Reservation Protocol Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20433"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.6.5a",
+        "device_count": 4,
+        "total_advisories": 52,
+        "by_severity": {
+          "Critical": 1,
+          "High": 33,
+          "Medium": 18
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-http-code-exec-WmfP3h3O",
+            "title": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.0",
+            "cves": [
+              "CVE-2025-20363"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-09-25T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdinj-gVn3OKNC",
+            "title": "Cisco IOS XE Software Web-Based Management Interface Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2025-20186"
+            ],
+            "firstFixed": [
+              "17.6.8"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdij-FzZAeXAy",
+            "title": "Cisco IOS XE Software Web UI Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2023-20231"
+            ],
+            "firstFixed": [
+              "17.6.6"
+            ],
+            "firstPublished": "2023-09-27T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nbar-dos-LAvwTmeT",
+            "title": "Cisco IOS XE Software Network-Based Application Recognition Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20315"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-09-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-asa-ftd-ios-dos-DOESHWHy",
+            "title": "Cisco IOS, IOS XE, Secure Firewall Adaptive Security Appliance, and Secure Firewall Threat Defense Software IKEv2 Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20224",
+              "CVE-2025-20225",
+              "CVE-2025-20239",
+              "CVE-2025-20252",
+              "CVE-2025-20253",
+              "CVE-2025-20254"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-08-14T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-multiprod-ikev2-dos-gPctUqv2",
+            "title": "Cisco Adaptive Security Appliance Software, Firepower Threat Defense Software, IOS Software, and IOS XE Software IKEv2 Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20182"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-iosxe-dhcpsn-dos-xBn8Mtks",
+            "title": "Cisco IOS XE Software DHCP Snooping Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20162"
+            ],
+            "firstFixed": [
+              "17.9.1x",
+              "17.9.6a",
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-twamp-kV4FHugn",
+            "title": "Cisco IOS, IOS XE, and IOS XR Software TWAMP Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20154"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2025-05-07T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-sdwan-utd-dos-hDATqxs",
+            "title": "Cisco Catalyst SD-WAN Routers Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20455"
+            ],
+            "firstFixed": [
+              "17.6.7"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-rsvp-dos-OypvgVZf",
+            "title": "Cisco IOS and IOS XE Software Resource Reservation Protocol Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20433"
+            ],
+            "firstFixed": [
+              "17.6.8"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.4a",
+        "device_count": 30,
+        "total_advisories": 45,
+        "by_severity": {
+          "Critical": 1,
+          "High": 26,
+          "Medium": 18
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-http-code-exec-WmfP3h3O",
+            "title": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.0",
+            "cves": [
+              "CVE-2025-20363"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-09-25T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdinj-gVn3OKNC",
+            "title": "Cisco IOS XE Software Web-Based Management Interface Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2025-20186"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nbar-dos-LAvwTmeT",
+            "title": "Cisco IOS XE Software Network-Based Application Recognition Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20315"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-09-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-asa-ftd-ios-dos-DOESHWHy",
+            "title": "Cisco IOS, IOS XE, Secure Firewall Adaptive Security Appliance, and Secure Firewall Threat Defense Software IKEv2 Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20224",
+              "CVE-2025-20225",
+              "CVE-2025-20239",
+              "CVE-2025-20252",
+              "CVE-2025-20253",
+              "CVE-2025-20254"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-08-14T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-multiprod-ikev2-dos-gPctUqv2",
+            "title": "Cisco Adaptive Security Appliance Software, Firepower Threat Defense Software, IOS Software, and IOS XE Software IKEv2 Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20182"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-iosxe-dhcpsn-dos-xBn8Mtks",
+            "title": "Cisco IOS XE Software DHCP Snooping Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20162"
+            ],
+            "firstFixed": [
+              "17.9.6a",
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-twamp-kV4FHugn",
+            "title": "Cisco IOS, IOS XE, and IOS XR Software TWAMP Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20154"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2025-05-07T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-sdwan-utd-dos-hDATqxs",
+            "title": "Cisco Catalyst SD-WAN Routers Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20455"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-rsvp-dos-OypvgVZf",
+            "title": "Cisco IOS and IOS XE Software Resource Reservation Protocol Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20433"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-httpsrvr-dos-yOZThut",
+            "title": "Cisco IOS XE Software HTTP Server Telephony Services Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20436"
+            ],
+            "firstFixed": [
+              "17.9.5"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.6.6a",
+        "device_count": 5,
+        "total_advisories": 41,
+        "by_severity": {
+          "Critical": 1,
+          "High": 25,
+          "Medium": 15
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-http-code-exec-WmfP3h3O",
+            "title": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.0",
+            "cves": [
+              "CVE-2025-20363"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-09-25T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdinj-gVn3OKNC",
+            "title": "Cisco IOS XE Software Web-Based Management Interface Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2025-20186"
+            ],
+            "firstFixed": [
+              "17.6.8"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nbar-dos-LAvwTmeT",
+            "title": "Cisco IOS XE Software Network-Based Application Recognition Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20315"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-09-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-asa-ftd-ios-dos-DOESHWHy",
+            "title": "Cisco IOS, IOS XE, Secure Firewall Adaptive Security Appliance, and Secure Firewall Threat Defense Software IKEv2 Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20224",
+              "CVE-2025-20225",
+              "CVE-2025-20239",
+              "CVE-2025-20252",
+              "CVE-2025-20253",
+              "CVE-2025-20254"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-08-14T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-multiprod-ikev2-dos-gPctUqv2",
+            "title": "Cisco Adaptive Security Appliance Software, Firepower Threat Defense Software, IOS Software, and IOS XE Software IKEv2 Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20182"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-iosxe-dhcpsn-dos-xBn8Mtks",
+            "title": "Cisco IOS XE Software DHCP Snooping Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20162"
+            ],
+            "firstFixed": [
+              "17.9.1x",
+              "17.9.6a",
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-twamp-kV4FHugn",
+            "title": "Cisco IOS, IOS XE, and IOS XR Software TWAMP Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20154"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2025-05-07T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-sdwan-utd-dos-hDATqxs",
+            "title": "Cisco Catalyst SD-WAN Routers Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20455"
+            ],
+            "firstFixed": [
+              "17.6.7"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-rsvp-dos-OypvgVZf",
+            "title": "Cisco IOS and IOS XE Software Resource Reservation Protocol Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20433"
+            ],
+            "firstFixed": [
+              "17.6.8"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-httpsrvr-dos-yOZThut",
+            "title": "Cisco IOS XE Software HTTP Server Telephony Services Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20436"
+            ],
+            "firstFixed": [
+              "17.6.7"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.5",
+        "device_count": 176,
+        "total_advisories": 35,
+        "by_severity": {
+          "Critical": 1,
+          "High": 22,
+          "Medium": 12
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-http-code-exec-WmfP3h3O",
+            "title": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.0",
+            "cves": [
+              "CVE-2025-20363"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-09-25T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ios-xe-cmd-inject-rPJM8BGL",
+            "title": "Cisco IOS XE Software HTTP API Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2025-20334"
+            ],
+            "firstFixed": [
+              "17.9.8"
+            ],
+            "firstPublished": "2025-09-24T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdinj-gVn3OKNC",
+            "title": "Cisco IOS XE Software Web-Based Management Interface Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2025-20186"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nbar-dos-LAvwTmeT",
+            "title": "Cisco IOS XE Software Network-Based Application Recognition Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20315"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-09-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-asa-ftd-ios-dos-DOESHWHy",
+            "title": "Cisco IOS, IOS XE, Secure Firewall Adaptive Security Appliance, and Secure Firewall Threat Defense Software IKEv2 Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20224",
+              "CVE-2025-20225",
+              "CVE-2025-20239",
+              "CVE-2025-20252",
+              "CVE-2025-20253",
+              "CVE-2025-20254"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-08-14T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-multiprod-ikev2-dos-gPctUqv2",
+            "title": "Cisco Adaptive Security Appliance Software, Firepower Threat Defense Software, IOS Software, and IOS XE Software IKEv2 Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20182"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-iosxe-dhcpsn-dos-xBn8Mtks",
+            "title": "Cisco IOS XE Software DHCP Snooping Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20162"
+            ],
+            "firstFixed": [
+              "17.9.6a",
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-twamp-kV4FHugn",
+            "title": "Cisco IOS, IOS XE, and IOS XR Software TWAMP Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20154"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2025-05-07T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-sdwan-utd-dos-hDATqxs",
+            "title": "Cisco Catalyst SD-WAN Routers Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20455"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-rsvp-dos-OypvgVZf",
+            "title": "Cisco IOS and IOS XE Software Resource Reservation Protocol Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20433"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.5a",
+        "device_count": 11,
+        "total_advisories": 31,
+        "by_severity": {
+          "Critical": 1,
+          "High": 20,
+          "Medium": 10
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-http-code-exec-WmfP3h3O",
+            "title": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.0",
+            "cves": [
+              "CVE-2025-20363"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-09-25T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ios-xe-cmd-inject-rPJM8BGL",
+            "title": "Cisco IOS XE Software HTTP API Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2025-20334"
+            ],
+            "firstFixed": [
+              "17.9.8"
+            ],
+            "firstPublished": "2025-09-24T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-webui-cmdinj-gVn3OKNC",
+            "title": "Cisco IOS XE Software Web-Based Management Interface Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2025-20186"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nbar-dos-LAvwTmeT",
+            "title": "Cisco IOS XE Software Network-Based Application Recognition Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20315"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-09-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-asa-ftd-ios-dos-DOESHWHy",
+            "title": "Cisco IOS, IOS XE, Secure Firewall Adaptive Security Appliance, and Secure Firewall Threat Defense Software IKEv2 Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20224",
+              "CVE-2025-20225",
+              "CVE-2025-20239",
+              "CVE-2025-20252",
+              "CVE-2025-20253",
+              "CVE-2025-20254"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-08-14T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-multiprod-ikev2-dos-gPctUqv2",
+            "title": "Cisco Adaptive Security Appliance Software, Firepower Threat Defense Software, IOS Software, and IOS XE Software IKEv2 Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20182"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-iosxe-dhcpsn-dos-xBn8Mtks",
+            "title": "Cisco IOS XE Software DHCP Snooping Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20162"
+            ],
+            "firstFixed": [
+              "17.9.6a",
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-twamp-kV4FHugn",
+            "title": "Cisco IOS, IOS XE, and IOS XR Software TWAMP Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20154"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2025-05-07T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-sdwan-utd-dos-hDATqxs",
+            "title": "Cisco Catalyst SD-WAN Routers Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20455"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-rsvp-dos-OypvgVZf",
+            "title": "Cisco IOS and IOS XE Software Resource Reservation Protocol Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20433"
+            ],
+            "firstFixed": [
+              "17.9.6"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "IOS-XE",
+        "version": "17.9.6",
+        "device_count": 1,
+        "total_advisories": 25,
+        "by_severity": {
+          "Critical": 1,
+          "High": 14,
+          "Medium": 10
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-http-code-exec-WmfP3h3O",
+            "title": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.0",
+            "cves": [
+              "CVE-2025-20363"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-09-25T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ios-xe-cmd-inject-rPJM8BGL",
+            "title": "Cisco IOS XE Software HTTP API Command Injection Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2025-20334"
+            ],
+            "firstFixed": [
+              "17.9.8"
+            ],
+            "firstPublished": "2025-09-24T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nbar-dos-LAvwTmeT",
+            "title": "Cisco IOS XE Software Network-Based Application Recognition Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20315"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-09-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-asa-ftd-ios-dos-DOESHWHy",
+            "title": "Cisco IOS, IOS XE, Secure Firewall Adaptive Security Appliance, and Secure Firewall Threat Defense Software IKEv2 Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20224",
+              "CVE-2025-20225",
+              "CVE-2025-20239",
+              "CVE-2025-20252",
+              "CVE-2025-20253",
+              "CVE-2025-20254"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2025-08-14T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-multiprod-ikev2-dos-gPctUqv2",
+            "title": "Cisco Adaptive Security Appliance Software, Firepower Threat Defense Software, IOS Software, and IOS XE Software IKEv2 Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20182"
+            ],
+            "firstFixed": [
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-iosxe-dhcpsn-dos-xBn8Mtks",
+            "title": "Cisco IOS XE Software DHCP Snooping Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20162"
+            ],
+            "firstFixed": [
+              "17.9.6a",
+              "17.9.7"
+            ],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ios-tacacs-hdB7thJw",
+            "title": "Cisco IOS and IOS XE Software TACACS+ Authentication Bypass Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.1",
+            "cves": [
+              "CVE-2025-20160"
+            ],
+            "firstFixed": [
+              "17.9.8"
+            ],
+            "firstPublished": "2025-09-24T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ios-xe-evss-code-exe-8cw5VSvw",
+            "title": "Cisco IOS XE Software Easy Virtual Switching System Arbitrary Code Execution Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.1",
+            "cves": [
+              "CVE-2021-1451"
+            ],
+            "firstFixed": [
+              "17.9.8",
+              "17.9.7a"
+            ],
+            "firstPublished": "2021-03-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-snmp-x4LPhte",
+            "title": "Cisco IOS and IOS XE Software SNMP Denial of Service and Remote Code Execution Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "7.7",
+            "cves": [
+              "CVE-2025-20352"
+            ],
+            "firstFixed": [
+              "17.9.8"
+            ],
+            "firstPublished": "2025-09-24T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-snmpwred-x3MJyf5M",
+            "title": "Cisco IOS XE Software Simple Network Management Protocol Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "7.7",
+            "cves": [
+              "CVE-2025-20312"
+            ],
+            "firstFixed": [
+              "17.9.8"
+            ],
+            "firstPublished": "2025-09-24T16:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "IOS",
+        "version": "15.2(7)E7",
+        "device_count": 8,
+        "total_advisories": 22,
+        "by_severity": {
+          "Critical": 1,
+          "High": 14,
+          "Medium": 7
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-http-code-exec-WmfP3h3O",
+            "title": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.0",
+            "cves": [
+              "CVE-2025-20363"
+            ],
+            "firstFixed": [
+              "15.2(8)E8",
+              "15.2(7)E13"
+            ],
+            "firstPublished": "2025-09-25T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-asa-ftd-ios-dos-DOESHWHy",
+            "title": "Cisco IOS, IOS XE, Secure Firewall Adaptive Security Appliance, and Secure Firewall Threat Defense Software IKEv2 Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20224",
+              "CVE-2025-20225",
+              "CVE-2025-20239",
+              "CVE-2025-20252",
+              "CVE-2025-20253",
+              "CVE-2025-20254"
+            ],
+            "firstFixed": [
+              "15.2(8)E8",
+              "15.2(7)E13"
+            ],
+            "firstPublished": "2025-08-14T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-twamp-kV4FHugn",
+            "title": "Cisco IOS, IOS XE, and IOS XR Software TWAMP Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20154"
+            ],
+            "firstFixed": [
+              "15.2(7)E12",
+              "15.2(8)E8"
+            ],
+            "firstPublished": "2025-05-07T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-rsvp-dos-OypvgVZf",
+            "title": "Cisco IOS and IOS XE Software Resource Reservation Protocol Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20433"
+            ],
+            "firstFixed": [
+              "15.2(7)E11",
+              "15.2(8)E7"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ikev1-NO2ccFWz",
+            "title": "Cisco IOS and IOS XE Software Internet Key Exchange Version 1 Fragmentation Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20307",
+              "CVE-2024-20308"
+            ],
+            "firstFixed": [
+              "15.2(8)E6",
+              "15.2(7)E11"
+            ],
+            "firstPublished": "2024-03-27T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-lisp-3gYXs3qP",
+            "title": "Cisco IOS and IOS XE Software Locator ID Separation Protocol Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20311"
+            ],
+            "firstFixed": [
+              "15.2(7)E9",
+              "15.2(8)E5"
+            ],
+            "firstPublished": "2024-03-27T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ios-http-privesc-wCRd5e3",
+            "title": "Cisco IOS Software Industrial Ethernet Switch Device Manager Privilege Escalation Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.3",
+            "cves": [
+              "CVE-2025-20164"
+            ],
+            "firstFixed": [
+              "15.2(7a)E0b",
+              "15.2(7b)E0b",
+              "15.2(8)E7",
+              "15.2(7)E12"
+            ],
+            "firstPublished": "2025-05-07T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ios-tacacs-hdB7thJw",
+            "title": "Cisco IOS and IOS XE Software TACACS+ Authentication Bypass Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.1",
+            "cves": [
+              "CVE-2025-20160"
+            ],
+            "firstFixed": [
+              "15.2(8)E8",
+              "15.2(7)E13"
+            ],
+            "firstPublished": "2025-09-24T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-aaascp-Tyj4fEJm",
+            "title": "Cisco IOS and IOS XE Software Command Authorization Bypass Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.0",
+            "cves": [
+              "CVE-2023-20186"
+            ],
+            "firstFixed": [
+              "15.2(8)E4",
+              "15.2(7)E9"
+            ],
+            "firstPublished": "2023-09-27T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-snmp-x4LPhte",
+            "title": "Cisco IOS and IOS XE Software SNMP Denial of Service and Remote Code Execution Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "7.7",
+            "cves": [
+              "CVE-2025-20352"
+            ],
+            "firstFixed": [
+              "15.2(8)E8",
+              "15.2(7)E13"
+            ],
+            "firstPublished": "2025-09-24T23:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "NX-OS",
+        "version": "9.3(9)",
+        "device_count": 19,
+        "total_advisories": 21,
+        "by_severity": {
+          "High": 10,
+          "Medium": 11
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-nxos-cdp-dos-ce-wWvPucC9",
+            "title": "Cisco FXOS and NX-OS Software Cisco Discovery Protocol Denial of Service and Arbitrary Code Execution Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.8",
+            "cves": [
+              "CVE-2022-20824"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2022-08-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nxos-dhcp6-relay-dos-znEAA6xn",
+            "title": "Cisco NX-OS Software DHCPv6 Relay Agent Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20446"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2024-08-28T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nxos-ebgp-dos-L3QCwVJ",
+            "title": "Cisco NX-OS Software External Border Gateway Protocol Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20321"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2024-02-28T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ipv6-mpls-dos-R9ycXkwM",
+            "title": "Cisco NX-OS Software MPLS Encapsulated IPv6 Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20267"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2024-02-29T00:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nxos-ether-dos-Kv8YNWZ4",
+            "title": "Cisco Nexus 3600 and 9500-R Series Switching Platforms Layer 2 Loop Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "7.4",
+            "cves": [
+              "CVE-2026-20051"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2026-02-25T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-n39k-isis-dos-JhJA8Rfx",
+            "title": "Cisco Nexus 3000 and 9000 Series Switches Intermediate System-to-Intermediate System Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "7.4",
+            "cves": [
+              "CVE-2025-20241"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2025-08-27T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-sisf-dos-ZGwt4DdY",
+            "title": "Multiple Cisco Products Switch Integrated Security Features DHCPv6 Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "7.4",
+            "cves": [
+              "CVE-2025-20191"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2025-05-07T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-n3kn9k-healthdos-eOqSWK4g",
+            "title": "Cisco Nexus 3000 and 9000 Series Switches Health Monitoring Diagnostics Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "7.4",
+            "cves": [
+              "CVE-2025-20111"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2025-02-26T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nxos-remoteauth-dos-XB6pv74m",
+            "title": "Cisco NX-OS Software TACACS+ or RADIUS Remote Authentication Directed Request Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "7.1",
+            "cves": [
+              "CVE-2023-20168"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2023-08-23T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nxos-bshacepe-bApeHSx7",
+            "title": "Cisco NX-OS Software Bash Arbitrary Code Execution and Privilege Escalation Vulnerabilities",
+            "sir": "Medium",
+            "cvssBaseScore": "6.7",
+            "cves": [
+              "CVE-2024-20411",
+              "CVE-2024-20413"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2024-08-28T16:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "IOS",
+        "version": "15.2(7)E9",
+        "device_count": 1,
+        "total_advisories": 18,
+        "by_severity": {
+          "Critical": 1,
+          "High": 12,
+          "Medium": 5
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-http-code-exec-WmfP3h3O",
+            "title": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability",
+            "sir": "Critical",
+            "cvssBaseScore": "9.0",
+            "cves": [
+              "CVE-2025-20363"
+            ],
+            "firstFixed": [
+              "15.2(8)E8",
+              "15.2(7)E13"
+            ],
+            "firstPublished": "2025-09-25T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-asa-ftd-ios-dos-DOESHWHy",
+            "title": "Cisco IOS, IOS XE, Secure Firewall Adaptive Security Appliance, and Secure Firewall Threat Defense Software IKEv2 Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20224",
+              "CVE-2025-20225",
+              "CVE-2025-20239",
+              "CVE-2025-20252",
+              "CVE-2025-20253",
+              "CVE-2025-20254"
+            ],
+            "firstFixed": [
+              "15.2(8)E8",
+              "15.2(7)E13"
+            ],
+            "firstPublished": "2025-08-14T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-twamp-kV4FHugn",
+            "title": "Cisco IOS, IOS XE, and IOS XR Software TWAMP Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2025-20154"
+            ],
+            "firstFixed": [
+              "15.2(7)E12",
+              "15.2(8)E8"
+            ],
+            "firstPublished": "2025-05-07T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-rsvp-dos-OypvgVZf",
+            "title": "Cisco IOS and IOS XE Software Resource Reservation Protocol Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20433"
+            ],
+            "firstFixed": [
+              "15.2(7)E11",
+              "15.2(8)E7"
+            ],
+            "firstPublished": "2024-09-25T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ikev1-NO2ccFWz",
+            "title": "Cisco IOS and IOS XE Software Internet Key Exchange Version 1 Fragmentation Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "8.6",
+            "cves": [
+              "CVE-2024-20307",
+              "CVE-2024-20308"
+            ],
+            "firstFixed": [
+              "15.2(8)E6",
+              "15.2(7)E11"
+            ],
+            "firstPublished": "2024-03-27T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ios-http-privesc-wCRd5e3",
+            "title": "Cisco IOS Software Industrial Ethernet Switch Device Manager Privilege Escalation Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.3",
+            "cves": [
+              "CVE-2025-20164"
+            ],
+            "firstFixed": [
+              "15.2(7a)E0b",
+              "15.2(7b)E0b",
+              "15.2(8)E7",
+              "15.2(7)E12"
+            ],
+            "firstPublished": "2025-05-07T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ios-tacacs-hdB7thJw",
+            "title": "Cisco IOS and IOS XE Software TACACS+ Authentication Bypass Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "8.1",
+            "cves": [
+              "CVE-2025-20160"
+            ],
+            "firstFixed": [
+              "15.2(8)E8",
+              "15.2(7)E13"
+            ],
+            "firstPublished": "2025-09-24T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-snmp-x4LPhte",
+            "title": "Cisco IOS and IOS XE Software SNMP Denial of Service and Remote Code Execution Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "7.7",
+            "cves": [
+              "CVE-2025-20352"
+            ],
+            "firstFixed": [
+              "15.2(8)E8",
+              "15.2(7)E13"
+            ],
+            "firstPublished": "2025-09-24T23:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-ios-invalid-url-dos-Nvxszf6u",
+            "title": "Cisco IOS Software Industrial Ethernet Switch Device Manager Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "7.7",
+            "cves": [
+              "CVE-2025-20327"
+            ],
+            "firstFixed": [
+              "15.2(8)E6",
+              "15.2(7)E11"
+            ],
+            "firstPublished": "2025-09-24T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-snmp-dos-sdxnSUcW",
+            "title": "Cisco IOS, IOS XE, and IOS XR Software SNMP Denial of Service Vulnerabilities",
+            "sir": "High",
+            "cvssBaseScore": "7.7",
+            "cves": [
+              "CVE-2025-20169",
+              "CVE-2025-20170",
+              "CVE-2025-20171",
+              "CVE-2025-20172",
+              "CVE-2025-20173",
+              "CVE-2025-20174",
+              "CVE-2025-20175",
+              "CVE-2025-20176"
+            ],
+            "firstFixed": [
+              "15.2(7)E12",
+              "15.2(8)E8"
+            ],
+            "firstPublished": "2025-02-05T16:00:00"
+          }
+        ]
+      },
+      {
+        "sw_type": "NX-OS",
+        "version": "10.3(6)",
+        "device_count": 2,
+        "total_advisories": 7,
+        "by_severity": {
+          "High": 3,
+          "Medium": 4
+        },
+        "top_advisories": [
+          {
+            "advisoryId": "cisco-sa-nxos-ether-dos-Kv8YNWZ4",
+            "title": "Cisco Nexus 3600 and 9500-R Series Switching Platforms Layer 2 Loop Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "7.4",
+            "cves": [
+              "CVE-2026-20051"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2026-02-25T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-n39k-isis-dos-JhJA8Rfx",
+            "title": "Cisco Nexus 3000 and 9000 Series Switches Intermediate System-to-Intermediate System Denial of Service Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "7.4",
+            "cves": [
+              "CVE-2025-20241"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2025-08-27T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nxos-infodis-TEcTYSFG",
+            "title": "Cisco NX-OS Software Sensitive Log Information Disclosure Vulnerability",
+            "sir": "Medium",
+            "cvssBaseScore": "5.5",
+            "cves": [
+              "CVE-2025-20290"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2025-08-27T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nxos-image-sig-bypas-pQDRQvjL",
+            "title": "Cisco NX-OS Software Image Verification Bypass Vulnerability",
+            "sir": "High",
+            "cvssBaseScore": "5.2",
+            "cves": [
+              "CVE-2024-20397"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2024-12-05T00:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nxos-ici-dpOjbWxk",
+            "title": "Cisco Nexus 3000 and 9000 Series Switches Command Injection Vulnerability",
+            "sir": "Medium",
+            "cvssBaseScore": "5.1",
+            "cves": [
+              "CVE-2025-20161"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2025-02-26T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nxospc-pim6-vG4jFPh",
+            "title": "Cisco Nexus 3000 and 9000 Series Switches Protocol Independent Multicast Version 6 Denial of Service Vulnerability",
+            "sir": "Medium",
+            "cvssBaseScore": "5.0",
+            "cves": [
+              "CVE-2025-20262"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2025-08-27T16:00:00"
+          },
+          {
+            "advisoryId": "cisco-sa-nxos-cmdinj-qhNze5Ss",
+            "title": "Cisco NX-OS Software Command Injection Vulnerability",
+            "sir": "Medium",
+            "cvssBaseScore": "4.4",
+            "cves": [
+              "CVE-2025-20292"
+            ],
+            "firstFixed": [],
+            "firstPublished": "2025-08-27T16:00:00"
+          }
+        ]
+      }
+    ]
+  },
+  "field_notices": {
+    "domain_score": 55.6,
+    "risk_distribution": {
+      "MEDIUM": 117,
+      "LOW": 138,
+      "HIGH": 5,
+      "NONE": 15
+    },
+    "top_20_devices": [
+      {
+        "device": "SITE20-DIA-01",
+        "pid": "ASR1001-X",
+        "sw": "IOS-XE 17.6.6a",
+        "fn_alerts": 6,
+        "risk": "HIGH"
+      },
+      {
+        "device": "SITE20-DIA-02",
+        "pid": "ASR1001-X",
+        "sw": "IOS-XE 17.6.6a",
+        "fn_alerts": 6,
+        "risk": "HIGH"
+      },
+      {
+        "device": "SITE43-IT-FIBER-R1",
+        "pid": "ASR1001-X",
+        "sw": "IOS-XE 17.6.6a",
+        "fn_alerts": 6,
+        "risk": "HIGH"
+      },
+      {
+        "device": "SITE46-DIA-01",
+        "pid": "ASR1001-X",
+        "sw": "IOS-XE 17.6.6a",
+        "fn_alerts": 6,
+        "risk": "HIGH"
+      },
+      {
+        "device": "SITE46-DIA-02",
+        "pid": "ASR1001-X",
+        "sw": "IOS-XE 17.6.6a",
+        "fn_alerts": 6,
+        "risk": "HIGH"
+      },
+      {
+        "device": "SITE42P-CUBE-01",
+        "pid": "ISR4431/K9",
+        "sw": "IOS-XE 16.12.4",
+        "fn_alerts": 4,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE01-2ND-CORE-95SW-01",
+        "pid": "C9500-40X",
+        "sw": "IOS-XE 17.6.4",
+        "fn_alerts": 4,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE20-VG4431-CUBE-01",
+        "pid": "ISR4431/K9",
+        "sw": "IOS-XE 17.6.5a",
+        "fn_alerts": 4,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE34-CORE-SW-01",
+        "pid": "C9500-40X",
+        "sw": "IOS-XE 17.6.4",
+        "fn_alerts": 4,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE42P-CUBE-R2",
+        "pid": "ISR4431/K9",
+        "sw": "IOS-XE 16.12.4",
+        "fn_alerts": 4,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE57-VG-R1",
+        "pid": "ISR4431/K9",
+        "sw": "IOS-XE 17.6.5a",
+        "fn_alerts": 4,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE42p-zoom-cube-01",
+        "pid": "ISR4431/K9",
+        "sw": "IOS-XE 16.12.4",
+        "fn_alerts": 4,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE56-ISP2-R1",
+        "pid": "ISR4431/K9",
+        "sw": "IOS-XE 17.6.5a",
+        "fn_alerts": 4,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE27-AGG",
+        "pid": "C9500-40X",
+        "sw": "IOS-XE 17.9.5",
+        "fn_alerts": 3,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE31-AGG",
+        "pid": "C9500-40X",
+        "sw": "IOS-XE 17.9.5",
+        "fn_alerts": 3,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE18-93SW-STACK-01",
+        "pid": "C9300-48UXM",
+        "sw": "IOS-XE 17.9.4a",
+        "fn_alerts": 3,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE20-IPTV-SW-01",
+        "pid": "C9300-48UXM",
+        "sw": "IOS-XE 17.9.4a",
+        "fn_alerts": 3,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE20-MGMT-SW-01",
+        "pid": "C9300-48UXM",
+        "sw": "IOS-XE 17.9.4a",
+        "fn_alerts": 3,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE20-MGMT-SW-03",
+        "pid": "C9300-48UXM",
+        "sw": "IOS-XE 17.9.4a",
+        "fn_alerts": 3,
+        "risk": "MEDIUM"
+      },
+      {
+        "device": "SITE20-MGMT-SW-04",
+        "pid": "C9300-48UXM",
+        "sw": "IOS-XE 17.9.4a",
+        "fn_alerts": 3,
+        "risk": "MEDIUM"
+      }
+    ]
+  },
+  "conformance": {
+    "domain_score": 32.5,
+    "distribution": {
+      "ACCEPTABLE": 179,
+      "NON-COMPLIANT": 96
+    },
+    "by_family": {
+      "ASR1000": {
+        "compliant": 0,
+        "acceptable": 0,
+        "non_compliant": 12,
+        "total": 12,
+        "recommended": "17.12.6",
+        "previous": "17.9.5",
+        "running_versions": {
+          "16.12.4": 3,
+          "17.6.6a": 5,
+          "17.6.5a": 4
+        }
+      },
+      "C3560": {
+        "compliant": 0,
+        "acceptable": 1,
+        "non_compliant": 8,
+        "total": 9,
+        "recommended": "15.2(7)E13",
+        "previous": "15.2(7)E9",
+        "running_versions": {
+          "15.2(7)E7": 8,
+          "15.2(7)E9": 1
+        }
+      },
+      "C9200": {
+        "compliant": 0,
+        "acceptable": 0,
+        "non_compliant": 1,
+        "total": 1,
+        "recommended": "17.12.6",
+        "previous": "17.9.5",
+        "running_versions": {
+          "17.9.4a": 1
+        }
+      },
+      "C9300": {
+        "compliant": 0,
+        "acceptable": 68,
+        "non_compliant": 16,
+        "total": 84,
+        "recommended": "17.12.6",
+        "previous": "17.9.5",
+        "running_versions": {
+          "17.9.4a": 12,
+          "17.9.5": 68,
+          "17.6.4": 2,
+          "17.9.3": 2
+        }
+      },
+      "C9410": {
+        "compliant": 0,
+        "acceptable": 91,
+        "non_compliant": 21,
+        "total": 112,
+        "recommended": "17.12.6",
+        "previous": "17.9.5",
+        "running_versions": {
+          "17.9.4a": 14,
+          "17.9.5": 91,
+          "17.6.4": 6,
+          "16.12.5b": 1
+        }
+      },
+      "C9500": {
+        "compliant": 0,
+        "acceptable": 17,
+        "non_compliant": 7,
+        "total": 24,
+        "recommended": "17.12.6",
+        "previous": "17.9.5",
+        "running_versions": {
+          "17.9.5": 17,
+          "17.6.4": 2,
+          "17.9.4a": 3,
+          "16.12.6": 2
+        }
+      },
+      "Cat8000": {
+        "compliant": 0,
+        "acceptable": 0,
+        "non_compliant": 12,
+        "total": 12,
+        "recommended": "17.12.6",
+        "previous": "17.9.5",
+        "running_versions": {
+          "17.9.6": 1,
+          "17.9.5a": 11
+        }
+      },
+      "N9K-C93180": {
+        "compliant": 0,
+        "acceptable": 2,
+        "non_compliant": 15,
+        "total": 17,
+        "recommended": "10.4(7)",
+        "previous": "10.3(6)",
+        "running_versions": {
+          "10.3(6)": 2,
+          "9.3(9)": 15
+        }
+      },
+      "N9K-C9504": {
+        "compliant": 0,
+        "acceptable": 0,
+        "non_compliant": 4,
+        "total": 4,
+        "recommended": "10.4(7)",
+        "previous": "10.3(6)",
+        "running_versions": {
+          "9.3(9)": 4
+        }
+      }
+    }
+  },
+  "overall_health": {
+    "score": 36.9,
+    "grade": "Critical Risk",
+    "domain_scores": {
+      "hw_eol": 95.3,
+      "sw_eol": 0.0,
+      "security": 3.3,
+      "field_notice": 55.6,
+      "conformance": 32.5,
+      "contract": 50
+    }
+  }
+}
